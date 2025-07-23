@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+    background-color:#808080;
+}
+span{
+  color:red;
+}
+nav a{
+  display:flex;
+  text-decoration:none;
+  padding:15px;
+  color:black;
+  justify-content:space-around;
+  margin:17px;
+}
+nav{
+  
+  border:3px solid darkblue;
+  border-radius:15px;
+  text-align:center;
+  margin:10px;
+  padding:10px;
+  font-size:22px;
+}
+.Zagolovok{
+  text-align:center;
+  color:lime;
+  font-size:35px
+}
+.link-header:hover{
+  background-image:linear-gradient(to bottom, white, black);
+    box-shadow:-5px 10px 10px 5px;
+    transition:all 1.5s linear;
+}
+.Mysites:hover{
+  background-image:linear-gradient(to bottom, black, white, black);
+  box-shadow:-10px 0px 10px 5px;
+  transition:all 1.5s linear;
+}
+.Information:hover{
+  background-image:linear-gradient(to bottom, black, white);
+  box-shadow:0px -5px 10px 5px;
+  transition:all 1.5s linear;
+}
+main li{
+  font-size:20px;
+}
