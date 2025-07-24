@@ -45,3 +45,8 @@ nav{
 main li{
   font-size:20px;
 }
+footer{
+  background-color:darkorange;
+  padding-left:15px;
+  padding-top:10px
+}
